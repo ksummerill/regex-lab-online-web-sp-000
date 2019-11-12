@@ -16,10 +16,10 @@ end
 
 # Returns true for text starting with a capital letter and ending with puncutation
 def first_word_capitalized_and_ends_with_punctuation?(text)
-  if text.match(//)
+  if text.match(/^[A-Z].*\W$/)
     return true
   else false
-  end    
+  end
 end
 
 def valid_phone_number?(phone)
