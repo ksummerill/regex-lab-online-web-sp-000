@@ -7,8 +7,6 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   text.scan(/\w+ing/)
-  #   return text.scan(text)
-  # end
 end
 
 
